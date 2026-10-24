@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Personal Appearance",
+    "description": "Adds an appearance entry to the titlebar; its submenu holds switches that restyle the client UI (small corners first)."
+  }
+}
