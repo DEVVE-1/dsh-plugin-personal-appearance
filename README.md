@@ -1,5 +1,7 @@
 # 个性化外观 · personal-appearance
 
+> **免责声明**：本项目**仅供娱乐**，是个人兴趣做的界面皮肤实验，**非官方产品**，与 DeepSeek、OpenAI、Anthropic 均无任何隶属、合作或背书关系。插件里出现的 Codex / Claude Code 图形、字标、配色与文案，版权归各自所有者，此处仅作致敬与学习之用，**不用于任何商业用途**。若权利人认为使用不妥，提个 issue，我会立即调整或移除相关素材。
+
 给 DSH 客户端换层皮。左上角标题栏点一下，整套界面跟着变，不用重启。
 
 现在有三套主题：**默认**（原样）、**Codex**、**Claude Code**。换的不只是颜色 —— 配色、字体、圆角、投影、滚动条、左上角的 logo、新会话首页那句话，一起换。另外还单独给了「圆角风格」和 iOS 手感的开关动效。
@@ -149,6 +151,8 @@ iOS 风格的弹簧手感，只动这几个地方：
 - Claude Code 的 slogan 原文：[Claude Code 文档概述](https://code.claude.com/docs/en/overview) 首句、[Claude Code 产品页](https://claude.com/product/claude-code) 首屏两句。
 - 品牌图形与字标：Codex 图形取自 [Devicons](https://devicons.io/icons/codex/)（MIT，云状外框 + `>_` 提示符）；Claude Code 星芒取自 [simple-icons](https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/claude.svg)（MIT）；Claude Code 字标取自官方文档站导航栏的 lockup（https://mintcdn.com/claude-code/c5r9_6tjPMzFdDDT/logo/light.svg ，裁掉尾部 `Docs`）。三者都直接内联官方 path 数据，不再手绘。此前用过的 OpenAI 结形标（GPT 标）不是 Codex 产品图形，已替换。
 
-## 授权
+## 授权与声明
 
-MIT。里面的 Codex / Claude Code 图形和字标版权归各自所有，只作为主题致敬使用，跟 OpenAI、Anthropic 没有隶属关系。
+代码以 **MIT** 发布，随便用、随便改。
+
+**声明**：本项目**仅供娱乐**，非官方、非商业，纯属个人兴趣。Codex / Claude Code 的名称、图形、字标、配色与文案，版权归 OpenAI、Anthropic 各自所有，此处仅作学习与主题致敬之用；本项目与上述两家公司**无任何隶属、合作或背书关系**，也不代表官方立场。插件只通过公开的 CSS 变量与 UI 插槽改样式，不修改、不反编译、不重分发任何官方二进制或源码。若权利人认为其中某处使用不妥，请提 issue（或邮件），我会在第一时间调整或移除。
