@@ -1,0 +1,59 @@
+{
+  "name": "personal-appearance",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "标题栏「个性化外观」入口：次级菜单里切换主题（Codex / Claude Code）、圆角风格与动效，即时生效。",
+  "type": "module",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DEVVE-1/dsh-plugin-personal-appearance.git"
+  },
+  "homepage": "https://github.com/DEVVE-1/dsh-plugin-personal-appearance#readme",
+  "bugs": {
+    "url": "https://github.com/DEVVE-1/dsh-plugin-personal-appearance/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "theme",
+    "skin",
+    "appearance",
+    "codex",
+    "claude-code"
+  ],
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-layout"
+      ]
+    }
+  }
+}
