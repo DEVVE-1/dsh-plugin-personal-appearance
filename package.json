@@ -1,8 +1,8 @@
 {
   "name": "personal-appearance",
-  "version": "1.0.0",
+  "version": "1.5.1",
   "license": "MIT",
-  "description": "标题栏「个性化外观」入口：次级菜单里切换主题（Codex / Claude Code）、圆角风格与动效，即时生效。",
+  "description": "标题栏「个性化外观」入口：次级菜单里切换主题（Codex / Claude Code，含思考中的鲸尾图标）、圆角风格、毛玻璃与动效，即时生效。",
   "type": "module",
   "main": "lib/index.js",
   "repository": {
